@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+main{
+  padding: 2rem;
+}
+
+:root{
+  --bg-home: rgb(56, 56, 56);
+  --bg-navbar-sm: rgb(56, 56, 56);
+}
+
+
+@layer utilities {
+  .bg-home{
+    background-color: var(--bg-home);
+  }
+  .bg-navbar-sm{
+    background-color: var(--bg-navbar-sm);
+  }
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(assets/Fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(assets/Fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Playfair;
+    src: url(assets/Fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: Pacifico;
+    src: url(assets/Fonts/Pacifico-Regular.ttf);
+}
+
+@theme{
+    --font-poppins: Poppins, sans-serif;
+    --font-montserrat: Montserrat, sans-serif;
+    --font-playfair: Playfair, sans-serif;
+    --font-pacifico: Pacifico, sans-serif;
+}
