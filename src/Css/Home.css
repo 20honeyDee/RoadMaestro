@@ -3,7 +3,6 @@
 .home h1{
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
-    text-align: center;
     letter-spacing: 2px;
     text-shadow: 3px 3px 3px black;
     z-index: 99;
@@ -28,4 +27,34 @@
 .home .btn{
     /* background-color: red; */
     z-index: 999;
+}
+
+
+@media (min-width: 768px) {
+    .home-body::after{
+        position: absolute;
+        background-color: white;
+        inset: 0;
+        content: "";
+        z-index: 1;
+        left: 35%;
+        clip-path: polygon(
+            50% 0,
+            100% 0,
+            100% 100%,
+            5% 100%
+        )
+    }
+    .home h1{
+        font-size: 50px;
+    }
+    .home h2{
+        font-size: 14px;
+    }
+    .textMaestro{
+        margin-bottom: 5rem;
+    }
+    #car{
+        margin-top: 3rem;
+    }
 }

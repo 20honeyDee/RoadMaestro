@@ -9,26 +9,28 @@ const Home = () => {
 
   const navigate = useNavigate();
 
-  // const signup = () =>{
-  //   alert("signup was clicked");
-  // }
-
   return (
-    <div className='bg-home home-body h-[100vh] relative'>
+    <div className='bg-home home-body h-[100vh] relative overflow-hidden'>
       <div className='home h-[80vh] flex flex-col justify-center items-center gap-4'>
-        <h1 className='font-bold text-white' data-aos="fade-right">
-          MAESTRO
-        </h1>
+        <span className='z-10 flex flex-col justify-center items-center
+        md:flex md:flex-row'>
+          <span className='textMaestro'>
+            <h1 className='font-bold text-white text-center' data-aos="fade-right">
+              MAESTRO
+            </h1>
 
-        <h2 className='font-semibold text-sm'
-          data-aos="zoom-in">
-            MASTERING ROAD'S
-            <span className='text-red-500'> BASICS</span>
-        </h2>
+            <h2 className='font-semibold text-sm'
+              data-aos="zoom-in">
+                MASTERING ROAD'S
+                <span className='text-red-500'> BASICS</span>
+            </h2>
+          </span>
+          
 
-        <img src={Car} alt="car" id="car" data-aos="fade-left"
-          style={{ aspectRatio: '1:1', width: '50%' }}
-        />
+          <img src={Car} alt="car" id="car" data-aos="fade-left"
+            style={{ aspectRatio: '1:1', width: '50%' }}/>
+        </span>
+        
 
         <div className='btn flex gap-4' data-aos="fade-up">
           <Button
@@ -53,6 +55,13 @@ const Home = () => {
           />
         </div>
 
+      </div>
+
+      <div id="contact" className='bg-red-600'>
+        <h6 className='text-white'>Contact Us</h6>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
       </div>
     </div>
   )
