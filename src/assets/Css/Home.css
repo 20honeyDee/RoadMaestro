@@ -31,6 +31,10 @@
 
 
 @media (min-width: 768px) {
+    .home{
+        width: 90%;
+        margin: auto;
+    }
     .home-body::after{
         position: absolute;
         background-color: white;
@@ -46,15 +50,42 @@
         )
     }
     .home h1{
-        font-size: 50px;
+        font-size: 70px;
+        text-shadow: 10px 10px 10px black;
     }
     .home h2{
         font-size: 14px;
+        text-shadow: 2px 5px 10px rgb(134, 133, 133);
     }
     .textMaestro{
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
+        left: 90px;
+        position: relative;
     }
     #car{
-        margin-top: 3rem;
+        margin-top: 7rem;
+        margin-right: 3rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .home h1{
+        font-size: 8vw;
+        font-weight: 600;
+        text-shadow: 10px 10px 10px black;
+    }
+    /* .textMaestro{
+        margin-left: 10px;
+    } */
+    .home h2{
+        font-size: 24px;
+        text-shadow: 2px 5px 10px rgb(134, 133, 133);
+    }
+    .textMaestro{
+        /* margin: 0 0 3rem 2rem */
+    }
+    #car{
+        margin-top: 10rem;
+        /* width: 70%; */
     }
 }

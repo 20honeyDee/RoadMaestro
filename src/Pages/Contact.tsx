@@ -1,6 +1,6 @@
 // import React from 'react'
-import '../Css/Contact.css'
-import contact from '../images/contact.png'
+import '../assets/Css/Contact.css'
+import contact from '../assets//images/contact.png'
 import TextField from '../components/TextField'
 import Buttons from '../components/Button'
 

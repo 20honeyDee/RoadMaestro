@@ -1,6 +1,6 @@
 import {useState} from 'react'
-import Logo from '../images/logo.png'
-import '../Css/Navbar.css'
+import Logo from '../assets/images/logo.png'
+import '../assets/Css/Navbar.css'
 import { Link } from 'react-router-dom'
 
 
@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className='flex justify-between items-center p-2 shadow-lg'>
           <span className='flex items-center gap-1'>
-            <img src={Logo} alt="Maestro" className='w-[30px] md:w-[50px]'/>
+            <img src={Logo} id='carLogo' alt="Maestro" className='w-[30px] md:w-[50px]'/>
             <Link to="/" className='text-xs h1 md:text-md'>RoadMaestro</Link>
           </span>
           <button

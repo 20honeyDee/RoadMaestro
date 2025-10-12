@@ -1,10 +1,10 @@
 // import React from 'react'
-import '../Css/About.css'
+import '../assets/Css/About.css'
 
 const About = () => {
   return (
-    <div>
-      <div className='aboutUs h-[100vh] py-3 px-5 overflow-scroll'>
+    <div className=''>
+      <div className='aboutUs h-[100vh] py-3 px-5 overflow-scroll mb-10'>
 
         <div className="about text-xs text-justify">
           <h1 className="text-sm underline">About Road Maestro</h1>

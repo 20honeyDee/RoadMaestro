@@ -1,0 +1,20 @@
+.card-body .card::-webkit-scrollbar{
+    width: 8px;
+    margin: 10px 0;
+    /* height: 2px; */
+}
+
+.card-body .card::-webkit-scrollbar-track {
+  background: transparent;      /* track color */
+  border-radius: 10px;
+  margin-block: 0.5em;
+}
+
+.card-body .card::-webkit-scrollbar-thumb {
+  background: #7e7e7e;         /* handle color */
+  border-radius: 8px;
+}
+
+.card-body .card::-webkit-scrollbar-thumb:hover {
+  background: #555;         /* handle color on hover */
+}

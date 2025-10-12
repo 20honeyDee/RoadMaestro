@@ -1,8 +1,9 @@
 import { useEffect } from 'react'
 import './App.css'
+import './index.css'
 import { BrowserRouter as Router } from 'react-router-dom'
 import AppRoutes from './Routes'
-import Navbar from './Pages/Navbar'
+import Navbar from './components/Navbar'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
