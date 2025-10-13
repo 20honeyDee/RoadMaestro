@@ -13,9 +13,9 @@ type CardProps = {
 
 const Card: React.FC<CardProps> = ({ title, description, imageUrl, linkUrl }) =>{
     return(
-        <div className="card border rounded-2xl p-2 m-3 bg-white h-[40vh] overflow-y-scroll max-w-[300px] min-w-[250px] shadow-lg hover:scale-[1.02] transition-transform duration-300">
+        <div className="card border rounded-2xl p-2 m-3 bg-white overflow-y-scroll min-w-[200px] max-w-[250px] min-h-[200px] max-h-[300px] shadow-lg hover:scale-[1.02] transition-transform duration-300">
             
-            <img src={imageUrl} className="card-img-top border-white border-2 rounded-none" alt={title} 
+            <img src={imageUrl} className="card-img-top border-gray-400 shadow-lg shadow-gray-400 border-1 rounded-none" alt={title} 
                 style={{
                     aspectRatio: '3/2',
                     borderRadius: '20px',

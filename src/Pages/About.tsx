@@ -6,8 +6,8 @@ const About = () => {
     <div className=''>
       <div className='aboutUs h-[100vh] py-3 px-5 overflow-scroll mb-10'>
 
-        <div className="about text-xs text-justify">
-          <h1 className="text-sm underline">About Road Maestro</h1>
+        <div className="about text-justify" data-aos="fade-up">
+          <h1 className="underline">About Road Maestro</h1>
             <p>Welcome to Road Maestro — your interactive learning companion for mastering the fundamentals 
             of driving and vehicle knowledge. Road Maestro is an online learning system designed to help 
             users understand the basics of cars and car parts, traffic laws, and road signs in a simple, 
@@ -23,15 +23,15 @@ const About = () => {
         </div>
         <hr />
 
-        <div className="mission text-xs text-justify">
-          <h1 className="text-sm underline">Our Mission</h1>
+        <div className="mission text-justify" data-aos="fade-up">
+          <h1 className="underline">Our Mission</h1>
             <p>To promote road awareness and safety through accessible digital education — empowering 
               learners to understand the rules of the road and the mechanics that drive it.</p>
         </div>
         <hr />
 
-        <div className="vision text-xs text-justify">
-          <h1 className="text-sm underline">Our Vision</h1>
+        <div className="vision text-justify" data-aos="fade-up">
+          <h1 className="underline">Our Vision</h1>
             <p>To become a trusted online platform that shapes smarter, safer, and more responsible 
               drivers through engaging and interactive learning experiences.</p>
         </div>

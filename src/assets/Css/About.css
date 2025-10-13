@@ -9,4 +9,27 @@
 
 .about, .mission, .vision{
     padding: 5px;
+    font-size: 12px;
+}
+
+@media (min-width: 768px){
+    .about h1, .mission h1, .vision h1 {
+        font-size: 18px;
+    }
+    .aboutUs{
+        /* background-color: orange; */
+        margin: 1rem 2rem;
+    }
+    .about, .mission, .vision{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px){
+    
+    .aboutUs{
+        /* background-color: orange; */
+        margin: 1rem auto;
+        width: 70vw;
+    }
 }
