@@ -72,6 +72,9 @@ const blowbagaImg = [
         alt: "Gas",
         Description: "Make sure you always have enough fuel for your trip. Regularly check for leaks, and do not overfill the fuel tank. Replace fuel tank cap as necessary.",
     },
+]
+
+const accesories = [
     {
         id: 8,
         img: body,
@@ -180,4 +183,4 @@ const blowbagaImg = [
     },
 ]
 
-export default blowbagaImg;
+export default { blowbagaImg, accesories };

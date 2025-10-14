@@ -6,6 +6,8 @@ import AboutPage from "./Pages/About";
 import ContactPage from "./Pages/Contact";
 import Fundamental from "./Pages/CarParts";
 import BlowBagaPage from "./Pages/BlowBaga";
+import TrafficLightsPage from "./Pages/TrafficLights";
+
 
 const AppRoutes = () => {
     return(
@@ -15,6 +17,7 @@ const AppRoutes = () => {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/fundamental/car_parts" element={<Fundamental />} />
             <Route path="/fundamental/blowbaga" element={<BlowBagaPage />} />
+            <Route path="/fundamental/traffic_lights" element={<TrafficLightsPage />} />
         </Routes>
     )
 };
