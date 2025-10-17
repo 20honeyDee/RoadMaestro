@@ -55,7 +55,7 @@ const BlowBaga = () => {
                 <Button
                   label='Next'
                   variant='secondary'
-                  onClick={() => navigate("/fundamental/traffic_lights")}
+                  onClick={() => navigate("/fundamentals/traffic_lights")}
                 />
               </span>
               

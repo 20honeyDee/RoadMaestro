@@ -7,6 +7,10 @@ import ContactPage from "./Pages/Contact";
 import Fundamental from "./Pages/CarParts";
 import BlowBagaPage from "./Pages/BlowBaga";
 import TrafficLightsPage from "./Pages/TrafficLights";
+import FundamentalsPage from "./Pages/FundamentalsPage";
+import RoadSignPage from "./Pages/RoadSigns";
+import LawsAndFinesPage from "./Pages/LawsAndFines";
+import QuizPage from "./Pages/Quiz";
 
 
 const AppRoutes = () => {
@@ -15,9 +19,13 @@ const AppRoutes = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
-            <Route path="/fundamental/car_parts" element={<Fundamental />} />
-            <Route path="/fundamental/blowbaga" element={<BlowBagaPage />} />
-            <Route path="/fundamental/traffic_lights" element={<TrafficLightsPage />} />
+            <Route path="/fundamentals" element={<FundamentalsPage />} />
+            <Route path="/fundamentals/car_parts" element={<Fundamental />} />
+            <Route path="/fundamentals/blowbaga" element={<BlowBagaPage />} />
+            <Route path="/fundamentals/traffic_lights" element={<TrafficLightsPage />} />
+            <Route path="/fundamentals/roadsigns" element={<RoadSignPage />} />
+            <Route path="/fundamentals/laws_and_fines" element={<LawsAndFinesPage />} />
+            <Route path="/fundamentals/quiz" element={<QuizPage />} />
         </Routes>
     )
 };

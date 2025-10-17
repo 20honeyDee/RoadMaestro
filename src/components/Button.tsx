@@ -9,6 +9,7 @@ type ButtonProps = {
     className?: string;
     textsize?: "xs" | "sm" | "lg" | "xl"
     children?: React.ReactNode;
+    disabled?: React.ReactNode;
 };
 
 

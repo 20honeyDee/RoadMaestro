@@ -1,48 +1,108 @@
-
-
-
-.trafficLights div>div{
-    margin: 0.5rem 2rem;
-    /* padding: 0 2rem; */
+.wrapper{
+    /* background-color: red; */
+    /* height: calc(100vh - 50px); */
 }
+
 .trafficLights img{
-    aspect-ratio: 16/9;
-    margin: 10px auto;
+    /* border: 2px solid black; */
+    width: 80vw;
+    min-width: 200px;
+    max-width: 350px;
+    aspect-ratio: 3/2;
+    
+    /* margin: 5px 0; */
 }
-.trafficLights p span{
-    font-weight: bold;
+
+.trafficLights div{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.trafficLights p {
+/* setting all text color inside the trafficLights div color white */
+.trafficLights {
     color: white;
-    margin: 10px 5px;
 }
 
-.properBraking img{
-    padding: 5px;
-}
-.properBraking h2{
-    /* color: ; */
+.trafficLights p{
+    /* color: red; */
     font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
+/* --------------------------- */
+/* properBraking styles */
+.properBraking{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.properBraking img{
+    margin: 10px 0;
+    width: 80vw;
+    min-width: 200px;
+    max-width: 350px;
+    aspect-ratio: 3/2;
+}
+.properBraking p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/* tablet screen size */
 @media (min-width: 768px){
-    .trafficLights img{
-        width: 60vw;
+    .wrapper{
+        /* background-color: red; */
+        width: 90vw;
     }
-    .trafficLights p {
-        margin: 10px 5px;
-        width: 60vw;
-        margin: auto;
-        font-size: 18px;
-        line-height: 1.3;
-    }
+
+    /* traffic lights */
     .trafficLights div{
+        /* background-color: green; */
+        flex-direction: row;
+        justify-content: space-between;
+        /* gap: 4; */
+        /* margin: 5px; */
+        margin: 2rem 0;
+    }
+    .trafficLights span{
+        /* background-color: purple; */
+        width: fit-content;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    /* proper braking */
+    .properBraking span{
+        /* background-color: red; */
         width: 80vw;
         margin: auto;
-    }
-    .properBraking p{
-        margin-bottom: 1rem;
+        font-size: 18px;
     }
 }
+
+/* desktop view */
+@media (min-width: 1024px){
+    .wrapper{
+        /* background-color: red; */
+        width: 80vw;
+        margin: 2rem auto;
+    }
+    .trafficLights span{
+        font-size: 24px;
+        line-height: 1.2;
+        margin-left: 3rem;
+    }
+
+    /* proper braking */
+    .properBraking span{
+        font-size: 24px;
+        line-height: 1.2;
+        margin-left: 3rem;
+    }
+}
+

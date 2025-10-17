@@ -1,4 +1,3 @@
-// import { Description } from '@mui/icons-material'
 import ac from '../images/Fundamental_Images/ac.png'
 import accelerator from '../images/Fundamental_Images/accelerator.jpg'
 import clutch from '../images/Fundamental_Images/clutch.jpg'
@@ -14,7 +13,7 @@ import suspension from '../images/Fundamental_Images/suspension.jpg'
 import pressurePlate from '../images/Fundamental_Images/pressurePlate.jpg'
 import throwOutBearing from '../images/Fundamental_Images/throwOutBearing.jpg'
 
-
+// CAR PARTS
 const fundamentalImg = [
     {
         id: 1,

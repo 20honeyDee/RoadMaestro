@@ -61,7 +61,7 @@ const Fundamental = () => {
             <Button
               label="Next"
               variant="secondary"
-              onClick={() => navigate('/fundamental/blowbaga')}
+              onClick={() => navigate('/fundamentals/blowbaga')}
               className="mb-5 hover:transform hover:scale-105"
             />
             <br /><br />

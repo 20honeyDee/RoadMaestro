@@ -1,0 +1,55 @@
+.FundamentalHomePage .pages{
+    /* background-color: red; */
+    width: 80vw;
+    min-width: 250px;
+    max-width: 300px;
+    height: 40vh;
+    min-height: 300px;
+    max-height: 350px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.pages h1{
+    background-color: gray;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    /* font-weight: bold; */
+    font-family: "Montserrat", sans-serif;
+}
+
+.FundamentalHomePage{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    padding: 2rem 0;
+}
+
+/* background images of each lessons page */
+.FundamentalHomePage div:nth-child(1){
+    /* background-color: red; */
+    background-image: url("../../assets/images/fundamentalpic.jpg");
+    background-size: cover;
+}
+.FundamentalHomePage div:nth-child(2){
+    /* background-color: green; */
+    background-image: url("../../assets/images/roadSign.jpg");
+    background-size: cover;
+}
+.FundamentalHomePage div:nth-child(3){
+    background-image: url("../../assets/images/rules.jpg");
+    background-size: cover;
+}
+
+/* hover effects for each pages */
+.FundamentalHomePage .pages:hover{
+    transform: scale(1.05);
+
+}

@@ -37,7 +37,7 @@ const Home = () => {
           <Button 
           label='Get Started'
           variant='primary'
-          onClick={() => navigate("/fundamental/car_parts")}
+          onClick={() => navigate("/fundamentals")}
         />
         </div>
         
