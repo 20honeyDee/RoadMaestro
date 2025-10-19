@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className='bg-home home-body h-[100vh] relative overflow-hidden'>
 
-      <div className='home h-[80vh] flex flex-col justify-center items-center gap-4 md:gap-2'>
+      <div className='home h-[60vh] flex flex-col justify-center items-center gap-4 md:gap-0'>
         <span className='spanImgText z-10 flex flex-col justify-center items-center
         md:flex-row md:items-center'>
 
